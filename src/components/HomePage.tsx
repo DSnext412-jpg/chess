@@ -125,6 +125,9 @@ export function HomePage({ onCreate, onJoin }: HomePageProps) {
               transition={{ staggerChildren: 0.09 }}
               className="relative z-10 max-w-[580px]"
             >
+              <div className="text-[10px] text-ivory-200/35 mt-2">
+                created by Dipak sonawane
+              </div>
               <motion.div variants={fadeUp} transition={{ duration: 0.6 }} className="flex items-center gap-3">
                 <span className="h-px w-8 bg-gold-400/50" />
                 <span className="eyebrow">Private peer-to-peer chess</span>
@@ -439,6 +442,32 @@ export function HomePage({ onCreate, onJoin }: HomePageProps) {
             <span className="inline-flex items-center gap-1.5">
               <Link2 className="h-3 w-3" /> Invite by link
             </span>
+          </div>
+          <div className="mt-4 sm:mt-0 flex items-center gap-3">
+            <img
+              src="/src/pic1.jpg"
+              alt="Dipak Sonawane"
+              className="h-8 w-8 rounded-full object-cover"
+            />
+            <a
+              href="https://www.instagram.com/ds_412_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[10px] text-ivory-200/35 hover:text-ivory-50 transition"
+            >
+              @ds_412_
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dipak-sonawane-511b5323a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[10px] text-ivory-200/35 hover:text-ivory-50 transition"
+            >
+              dipak-sonawane-511b5323a
+            </a>
+          </div>
+          <div className="mt-4 sm:mt-0 text-center sm:text-right text-[10px] text-ivory-200/35">
+            &copy; 2026 dipak sonawane
           </div>
         </div>
       </footer>
