@@ -101,7 +101,7 @@ export function CreateRoom({ onBack }: CreateRoomProps) {
                   <input
                     id="host-name"
                     className="input pl-11"
-                    placeholder="e.g. Alex"
+                    placeholder="samiksha"
                     maxLength={20}
                     autoComplete="off"
                     value={name}
