@@ -101,7 +101,7 @@ export function CreateRoom({ onBack }: CreateRoomProps) {
                   <input
                     id="host-name"
                     className="input pl-11"
-                    placeholder="samiksha"
+                    placeholder="e.g, samiksha"
                     maxLength={20}
                     autoComplete="off"
                     value={name}
@@ -109,7 +109,6 @@ export function CreateRoom({ onBack }: CreateRoomProps) {
                   />
                 </div>
                 <p className="mt-2 text-[11px] text-ivory-200/30">
-                  Optional. Shown to your opponent only during this session.
                 </p>
               </div>
 
@@ -199,7 +198,6 @@ export function CreateRoom({ onBack }: CreateRoomProps) {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-ivory-200/35">
-                    You will play
                   </p>
                   <div className="mt-1 flex items-center gap-2">
                     <span className="h-2.5 w-2.5 rounded-full border border-black/20 bg-ivory-100 shadow" />
@@ -267,8 +265,6 @@ export function CreateRoom({ onBack }: CreateRoomProps) {
             </div>
 
             <p className="mt-4 px-2 text-[10.5px] leading-5 text-ivory-200/25">
-              PeerJS Cloud is used for signaling. If it is unavailable, we show
-              a clear error instead of pretending the room connected.
             </p>
           </motion.aside>
         </div>
